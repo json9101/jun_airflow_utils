@@ -36,6 +36,9 @@ def ping():
     else:
         print('pong')
 
+def hello():
+    print("hi")
+    return "hello"
 
 if __name__ == "__main__":
     ping()
